@@ -1,0 +1,165 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100vw;
+  font-family: "Poppins", sans-serif;
+  /* background-color: #d5f0c1; */
+  background: rgb(254, 254, 254);
+background:  linear-gradient(168deg, #2E335A 1.62%, #1C1B33 95.72%);
+}
+  
+#main {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+/* HEAD SECTION   */
+#header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom:2rem ;
+  width: 100%;
+}
+.heading {
+  font-size: 55px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  color: #fff;
+}
+#searchDiv {
+  display: flex;
+  justify-content: center;
+  /* border: 1px solid; */
+}
+#searchInput {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 1px 4px 4px 2px rgba(1, 1, 1, 0.25) inset;
+  margin: 0 1rem;
+  border-radius: 0.5rem;
+  width: 596px;
+}
+
+
+.search-icon {
+  height: 1.2rem;
+}
+
+#cityInput {
+  width: 430px;
+  height: 2.2rem;
+  padding: 4px 12px;
+  outline: none;
+  border: none;
+  background-color: transparent;
+  /* font-size: 2rem; */
+  font-weight: 700;
+  /* margin: 0 2rem; */
+  width: 90%;
+  /* border: 1px solid; */
+}
+#cityInput:focus,
+#cityInput:active {
+  border: none;
+  color: #fff;
+  font-size: 1.2rem;
+}
+
+#addCityBtn {
+  border-radius: 7px;
+  border: none;
+  height: 2.8rem;
+  width: 8rem;
+  background: rgba(108, 88, 170, 0.7);
+  font-size: 1rem;
+  font-weight: 600;
+  color: #fff;
+}
+
+
+
+
+/* DASHBOARD SECTION  */
+
+
+#dashboard{
+    /* border: 1px solid; */
+    width: 85vw;
+    height:100vh;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    gap: 2rem;
+}
+
+#weather1{
+    width: 342px;
+    height: 250px;
+    /* border: 1px solid; */
+    margin: 1rem;
+    background-image: url(./rectangle.png);
+    background-position: 50% 80%; 
+    background-repeat: no-repeat;
+    background-size: contain;
+    color: #fff;
+}
+
+#degree-icon{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4px 8px;
+
+}
+
+#degree{
+    color: #FFF;
+    font-size: 55px;
+    font-weight:700;
+    line-height: 41px;
+    letter-spacing: 0.374px;
+}
+
+#icon{
+height:160px;
+padding-left: 4rem;
+}
+
+#cityHL{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 6px;
+}
+
+.don{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#HL{
+color: rgba(235, 235, 245, 0.60);
+font-size: 14px;
+font-weight: 300;
+letter-spacing:1px;
+}
+#city{
+color: #FFF;
+font-size: 14px;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: -0.408px;
+}
+
+
+
